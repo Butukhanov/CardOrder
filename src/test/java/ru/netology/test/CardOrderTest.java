@@ -10,7 +10,7 @@ public class CardOrderTest {
 
     @Test
     void test() {
-        open("http://localhost:9999");
+        open("http://localhost:9999/");
         $("[data-test-id=name] input").setValue("Иванов Иван");
         $("[data-test-id=phone] input").setValue("+79240000000");
         $("[data-test-id=agreement]").click();
